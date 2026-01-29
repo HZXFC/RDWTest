@@ -13,5 +13,5 @@ public class NullResetter : Resetter
 
     public override void SimulatedWalkerUpdate() { }
 
-    public override bool IsResetRequired() { Debug.LogWarning("Null Reset Fail"); return false; }
+    public override bool IsResetRequired() { return false; }
 }

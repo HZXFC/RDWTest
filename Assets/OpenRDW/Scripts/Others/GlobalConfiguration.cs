@@ -105,7 +105,7 @@ public class GlobalConfiguration : MonoBehaviour
     public bool experimentInProgress = false;//if experiment is running
 
     //false indicates this is the first call of this trial
-    [HideInInspector]
+    //[HideInInspector]
     public bool avatarIsWalking;
 
     //start time string of this program
